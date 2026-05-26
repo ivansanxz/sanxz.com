@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sanxz.com is a personal archive and open academic field guide for ambitious students."
+    />
+    <title>Sanxz.com | Open Academic Field Notes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Sanxz home">
+        <span class="brand-mark">S</span>
+        <span>Sanxz.com</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#field-notes">Notes</a>
+        <a href="#academic-weapon">Academic Weapon</a>
+        <a href="#projects">Projects</a>
+        <a href="#dispatches">Dispatches</a>
+      </nav>
+
+      <button class="icon-button" id="paletteButton" type="button" aria-label="Open command menu">
+        <span aria-hidden="true">⌘</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="axis-line"></div>
+          <div class="artifact-card artifact-one">
+            <span>Archive</span>
+            <strong>Life logs</strong>
+          </div>
+          <div class="artifact-card artifact-two">
+            <span>Open syllabus</span>
+            <strong>Free study maps</strong>
+          </div>
+          <div class="artifact-card artifact-three">
+            <span>North star</span>
+            <strong>MIT-ready systems</strong>
+          </div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Personal archive / open education lab</p>
+          <h1 id="hero-title">Sanxz.com</h1>
+          <p class="hero-lede">
+            A living record of becoming sharper, kinder, and more useful: field notes from my life,
+            study systems for academic ambition, and free resources for anyone trying to move fast.
+          </p>
+
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#academic-weapon">Enter the field guide</a>
+            <a class="button secondary" href="#field-notes">Read the archive</a>
+          </div>
+        </div>
+
+        <aside class="signal-panel" aria-label="Current operating principles">
+          <div>
+            <span class="label">Belief</span>
+            <p>Education must be free, portable, and global.</p>
+          </div>
+          <div>
+            <span class="label">Mission</span>
+            <p>Build proof through projects, writing, and disciplined learning.</p>
+          </div>
+          <div>
+            <span class="label">Audience</span>
+            <p>Students, self-teachers, builders, and future academic weapons.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="mode-strip" aria-label="Site modes">
+        <button class="mode-button active" type="button" data-mode="all">All signals</button>
+        <button class="mode-button" type="button" data-mode="personal">Personal life</button>
+        <button class="mode-button" type="button" data-mode="academic">Academic weapon</button>
+      </section>
+
+      <section class="section-grid" id="field-notes" aria-labelledby="notes-title">
+        <div class="section-heading">
+          <p class="eyebrow">Field notes</p>
+          <h2 id="notes-title">A public notebook for becoming.</h2>
+        </div>
+        <div class="notes-grid">
+          <article class="note-card" data-category="personal">
+            <span class="tag">Identity</span>
+            <h3>Why I am documenting the climb</h3>
+            <p>
+              The archive tracks the messy middle: habits, doubts, experiments, failures, and the
+              proof that a serious life is assembled one repeatable day at a time.
+            </p>
+          </article>
+          <article class="note-card" data-category="academic">
+            <span class="tag">Study system</span>
+            <h3>Academic weapon starter protocol</h3>
+            <p>
+              A practical route for fast improvement: diagnostic tests, deep work blocks, active
+              recall, project-based proof, and weekly reflection.
+            </p>
+          </article>
+          <article class="note-card" data-category="personal">
+            <span class="tag">Ambition</span>
+            <h3>The university dream, without pretending</h3>
+            <p>
+              MIT is a lighthouse, not a costume. This space records the work behind the dream:
+              research, applications, projects, taste, and resilience.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="academic-band" id="academic-weapon" aria-labelledby="weapon-title">
+        <div class="section-heading wide">
+          <p class="eyebrow">Academic Weapon</p>
+          <h2 id="weapon-title">A free operating system for students who want velocity.</h2>
+          <p>
+            This can become its own URL or subdomain later: a focused library of roadmaps, study
+            blocks, resource lists, templates, and honest advice.
+          </p>
+        </div>
+
+        <div class="weapon-layout">
+          <div class="protocol-list" aria-label="Academic protocol stages">
+            <button class="protocol-step active" type="button" data-step="diagnose">
+              <span>01</span>
+              Diagnose
+            </button>
+            <button class="protocol-step" type="button" data-step="build">
+              <span>02</span>
+              Build
+            </button>
+            <button class="protocol-step" type="button" data-step="prove">
+              <span>03</span>
+              Prove
+            </button>
+            <button class="protocol-step" type="button" data-step="publish">
+              <span>04</span>
+              Publish
+            </button>
+          </div>
+
+          <article class="protocol-detail" id="protocolDetail" aria-live="polite">
+            <span class="tag">01 / Diagnose</span>
+            <h3>Find the bottleneck before adding more hours.</h3>
+            <p>
+              Map your current level, weakest subjects, available time, and target opportunities.
+              The first win is clarity: what to learn, why it matters, and how success will be
+              measured.
+            </p>
+          </article>
+
+          <div class="resource-stack" aria-label="Open resource categories">
+            <article>
+              <span class="label">Resource shelf</span>
+              <h3>Free learning map</h3>
+              <p>Courses, books, problem sets, lectures, and tools organized by skill level.</p>
+            </article>
+            <article>
+              <span class="label">Study blocks</span>
+              <h3>90-minute templates</h3>
+              <p>Reusable sessions for math, writing, coding, research, and exam prep.</p>
+            </article>
+            <article>
+              <span class="label">Proof engine</span>
+              <h3>Projects over vibes</h3>
+              <p>Turn learning into public artifacts: essays, demos, notebooks, and portfolios.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-grid" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title">Building a body of proof.</h2>
+        </div>
+        <div class="project-board">
+          <article class="project-item" data-category="academic">
+            <span class="status">Now</span>
+            <h3>Academic Weapon Library</h3>
+            <p>Open guides and templates for students who need a serious self-study system.</p>
+          </article>
+          <article class="project-item" data-category="personal">
+            <span class="status">Soon</span>
+            <h3>Life Index</h3>
+            <p>A curated map of essays, photos, reflections, and lessons from the long climb.</p>
+          </article>
+          <article class="project-item" data-category="academic">
+            <span class="status">Research</span>
+            <h3>University Readiness Tracker</h3>
+            <p>A transparent checklist for applications, competitions, skills, and portfolio work.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="dispatches" id="dispatches" aria-labelledby="dispatches-title">
+        <div>
+          <p class="eyebrow">Dispatches</p>
+          <h2 id="dispatches-title">One honest update at a time.</h2>
+          <p>
+            Use this space as a blog, newsletter, or public journal. Short posts are enough:
+            lessons learned, resources found, projects shipped, and the occasional hard truth.
+          </p>
+        </div>
+        <form class="subscribe-form">
+          <label for="email">Follow the build</label>
+          <div>
+            <input id="email" type="email" placeholder="you@example.com" autocomplete="email" />
+            <button class="button primary" type="submit">Join</button>
+          </div>
+          <p class="form-note" id="formNote">Demo form for now. Connect it later to your newsletter tool.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Sanxz.com / Open academic field notes</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <dialog class="command-menu" id="commandMenu" aria-labelledby="command-title">
+      <div class="command-head">
+        <h2 id="command-title">Jump to</h2>
+        <button class="icon-button" id="closeCommand" type="button" aria-label="Close command menu">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <a href="#field-notes">Field notes</a>
+      <a href="#academic-weapon">Academic Weapon</a>
+      <a href="#projects">Projects</a>
+      <a href="#dispatches">Dispatches</a>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
